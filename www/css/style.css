@@ -1,0 +1,96 @@
+/* Empty. Add your own CSS if you like */
+
+.homepage{
+	background-color:#000033;
+}
+
+.header{
+	background-color:#000033;
+	color:white;
+}
+
+.homepage .item{
+  border-color: #c7e1f9;
+  background-color: #000033;
+  color: #c7e1f9;
+  font-size:20px;
+}
+
+input[placeholder],
+    [placeholder],
+    *[placeholder] {
+      color: #c7e1f9 !important;
+    }
+
+.homepage textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"]{
+  font-size:17px;
+}
+
+.header h3{
+	color:white;
+}
+
+.logo{
+	display: block;
+  	width: 250px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding-top: 50px;
+}
+
+.logins{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+.signin{
+  width: 100px;
+  text-decoration: none;
+}
+
+.map{
+	display: block;
+  	width: 100%;
+  	margin-left: auto;
+  	margin-right: auto;
+      margin-top: -10px;
+}
+
+.small-logo{
+	display: block;
+  	width: 150px;
+  	margin-left: auto;
+  	margin-right: auto;	
+}
+
+.barhop-buttons{
+    background-color: #8dff95;
+  color: #000033;
+}
+
+.barhop-light-buttons{
+  background-color: #c7e1f9;
+  color: #000033;
+  padding:10px;
+}
+
+.white-font{
+  color:#c7e1f9;
+  text-align: center;
+}
+
+.drink{
+  display:inline-block;
+  height: 130px;
+  padding: 20px;
+    padding-bottom: 0px;
+}
+
+.drinks{
+  text-align: center;
+}
+
+.order{
+  display:inline-block;
+}

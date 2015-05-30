@@ -1,0 +1,32 @@
+<ion-view view-title="Friends">
+  <ion-content class="homepage">
+	<div class="header">
+		<a href="#/chats" style="text-decoration: none;"><img ng-src="img/mixer-logo.png" class="small-logo"/></a>
+	</div>
+	<div class="logins">
+	  	<img ng-show="imgURI !== undefined" ng-src="{{imgURI}}"><p></p>
+	    <img ng-show="imgURI === undefined" ng-src="http://placehold.it/300x300">
+	</div>
+	<img ng-src="img/mixer-selfie-time.png" ng-click="takePicture()" class="small-logo">
+  	<div class="list">
+	  <label class="item item-input">
+	    <input type="text" placeholder="Catty">
+	  </label>
+	  <label class="item item-input">
+	    <input type="text" placeholder="Feeling friske... ;)">
+	  </label>
+	  <label class="item item-input">
+	    <input type="text" placeholder="White Russian">
+	  </label>
+	</div>
+	<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+	<div class="list">
+	  <h4 class="white-font">Would you Rather?</h4>
+	  <div class="row">
+		  <button class="button button-full barhop-light-buttons">Win 1 Million Dollars</button>
+		  <button class="button button-full barhop-light-buttons" style="background-color:#557793; border-color:#557793">Or Find True Love</button>
+		</div>
+	</div>
+	<a href="#/tab/chats" style="text-decoration: none;"><button class="button button-block barhop-buttons">Take Me to The Bar!</button></a>
+  </ion-content>
+</ion-view>
